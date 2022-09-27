@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container-fluid">
         <nav className="navbar navbar-expand navbar-light bg-light">
           <div className="container-fluid">
             <div className='nav navbar-nav'>
@@ -12,7 +12,10 @@ function App() {
             </div>
           </div>
         </nav>
-        <List></List>
+        <div className= "container">
+          <List />
+        </div>
+        
     </div>
   );
 }
