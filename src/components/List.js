@@ -1,10 +1,13 @@
+import {Link} from 'react-router-dom'
 
 
 export default function List(){
     return (
         <div className="card mt-3">
             <div className="card-header">
-                <button className="btn btn-success me-2">Add new project</button>
+                <Link to={"/create"}>
+                    <button className="btn btn-success me-2">Add new project</button>
+                </Link>
             </div>
             
             <div className="card-body">
